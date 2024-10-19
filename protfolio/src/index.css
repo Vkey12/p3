@@ -41,12 +41,21 @@ body {
     background-image: url(../src/assets/bg-texture.png);
 }
 
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
 h1,h2,h3,h4,h5 {
     font-weight: 500;
 }
 
 h1 {
     font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
 }
 
 section > h2, section > h5{
@@ -122,12 +131,3 @@ img {
     }
 }
 
-/* Tablet, ipad (medium devices) */
-@media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
-    section {
-        margin-top: 6rem;
-    }
-}
